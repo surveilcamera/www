@@ -10,6 +10,11 @@ stream to camera
 view to camera   - This name is straightforward and tells users that the service is for viewing camera feeds. It's direct and to the point.
 
 
+## offer
+
+I am looking for professionals who will help me find clients for an IP camera assistant with object detection in Europe.
+Does anyone have a recommendation?
+#SurveillanceCamera #CameraAssistant #CCTV #cameraMonit #Marketing #Advertising #findapro #objectDetection #surveilCamera
 
 ### surveil camera
 
