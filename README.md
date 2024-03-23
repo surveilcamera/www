@@ -56,3 +56,57 @@ A surveillance camera, often referred to as a surveil camera, is a device used f
     - Public Spaces: Airports, train stations, and public buildings.
     - Industrial Sites: Factories, construction sites, and critical infrastructure.
 Remember that the effectiveness of surveillance cameras depends on proper installation, maintenance, and adherence to privacy regulations. Always use them responsibly and ethically.
+
+
+
+## About Architecture
+
+![image](https://github.com/surveilcamera/www/assets/5669657/37d3eb16-04b1-4781-9dfe-cb825f54fa9c)
+
+
+During NVIDIA's GTC, NEMO and NIM highlights enable you to use 𝘁 𝘀𝗰𝗮𝗹𝗲!
+
+Let's summarize what the Triton inference server offers and how 𝗲 𝗲𝗽 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗮𝗻𝗱 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲-𝗮𝗶 𝗺𝗼𝗱𝗲 𝗹 𝘀.
+
+𝗛𝗲𝗿𝗲'𝘀 𝘄𝗵𝘆 𝗶𝘁 𝘀𝘁𝗮𝗻𝗱𝘀 𝗼𝘂𝘁:
+
++ 𝗠𝗼𝗱𝗲𝗹 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝘁𝗶𝗼𝗻
+It supports multiple frameworks (ONNX, TensorFlow, PyTorch and TensorRT) and optimizes them for GPU and CPU execution.
+
++ 𝗗𝘆𝗻𝗮𝗺𝗶𝗰 𝗕𝗮𝘁𝗰𝗵𝗶𝗻𝗴
+Intelligently batches incoming requests to increase throughput based on parameters specified in the model deployment configuration file.
+
++ 𝗠𝘂𝗹𝘁𝗶-𝗠𝗼𝗱𝗲𝗹 𝗦𝗲𝗿𝘃𝗶𝗻𝗴
+It supports different models or multiple instances of the same model simultaneously, thereby increasing resource efficiency.
+
++ 𝗦𝗶𝗺𝗽𝗹𝗶𝗳𝗶𝗲𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁
+Easily integrate with Kubernetes for seamless scalability and management in production environments.
+
++ 𝗠𝗲𝘁𝗿𝗶𝗰𝘀 𝗮𝗻𝗱 𝗠𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝗻𝗴
+Offers detailed visibility into model performance and resource utilization, essential for tuning and maintaining performance.
+
++ 𝗖𝗹𝗼𝘂𝗱 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻
+For cloud deployments, Triton can be easily configured in the AWS (SageMaker) or Azure cloud.
+
++ 𝗦𝗵𝗮𝗿𝗲𝗱 𝗠𝗲𝗺𝗼𝗿𝘆 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻
+For additional bandwidth boost, you can use 𝘊𝘶𝘥𝘢𝘚𝘩𝘢𝘳𝘦𝘥𝘔𝘦𝘮𝘰𝘳𝘺 or 𝘚𝘺𝘴𝘵𝘦𝘮𝘚𝘩𝘢𝘳𝘦 𝘥 𝘔𝘦𝘮𝘰𝘳𝘺 regions for mutual data exchange between the client ⤌⤍ server.
+
++ 𝗦𝗲𝗮𝗺𝗹𝗲𝘀𝘀 𝗔/𝗕 𝘁𝗲𝘀𝘁𝗶𝗻𝗴
+Due to the flexibility with which you can version and specify models, you can have 10 versions of the same model and redirect customer requests to any version you choose.
+
+
++ 𝘔𝘶𝘭𝘵𝘪-𝘰𝘱𝘵𝘪𝘮𝘪𝘻𝘢𝘵𝘪𝘰𝘯 𝘣𝘢𝘤𝘬𝘦𝘯𝘥𝘴 𝘴𝘶𝘱𝘱 𝘰𝘳𝘵
++ 𝘔𝘶𝘭𝘵𝘪𝘱𝘭𝘦 𝘷𝘦𝘳𝘴𝘪𝘰𝘯𝘴 𝘰𝘧 𝘵𝘩𝘦 𝘴𝘢𝘮𝘦 𝘮𝘰𝘥 𝘦𝘭
++ 𝘚𝘦𝘢𝘮𝘭𝘦𝘴𝘴 𝘈/𝘉 𝘵𝘦𝘴𝘵𝘪𝘯𝘨
++ 𝘖𝘶𝘵-𝘰𝘧-𝘵𝘩𝘦-𝘣𝘰𝘹 𝘱𝘦𝘳𝘧𝘰𝘳𝘮𝘢𝘯𝘤𝘦 𝘮𝘰𝘯𝘪𝘵𝘰 𝘳𝘪𝘯𝘨
++ 𝘋𝘺𝘯𝘢𝘮𝘪𝘤 𝘳𝘦𝘲𝘶𝘦𝘴𝘵 𝘣𝘢𝘵𝘤𝘩𝘪𝘯𝘨
++ 𝘚𝘺𝘯𝘤/𝘈𝘴𝘺𝘯𝘤 𝘤𝘭𝘪𝘦𝘯𝘵𝘴 𝘪𝘮𝘱𝘭𝘦𝘮𝘦𝘯𝘵𝘢𝘵𝘪𝘰 𝘯𝘴
++ 𝘙𝘪𝘤𝘩 𝘪𝘯 𝘈𝘗𝘐𝘴 𝘸𝘪𝘵𝘩 𝘑𝘢𝘷𝘢, 𝘊++, 𝘗𝘺𝘵𝘩𝘰𝘯
++ 𝘏𝘛𝘛𝘗 𝘰𝘳 𝘨𝘙𝘗𝘊 𝘱𝘳𝘰𝘵𝘰𝘤𝘰𝘭𝘴 𝘧𝘰𝘳 𝘪𝘯𝘧𝘦𝘳𝘦 𝘯𝘤𝘦
+
+
+
+#ML #ComputerVision #MLOps and #generativeAI fields.
+
+
+
