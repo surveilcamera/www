@@ -1,4 +1,5 @@
-![obraz](https://github.com/user-attachments/assets/5f91071c-32bd-4889-9d6b-7d70eca3bb8c)
+![obraz](https://github.com/user-attachments/assets/ce6f7a3b-31fa-46d4-bce1-27b5ba671d50)
+
 
 # [surveil.camera](http://www.surveil.camera) Surveillance Camera
 
